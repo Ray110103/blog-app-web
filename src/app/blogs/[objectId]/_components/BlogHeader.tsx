@@ -19,7 +19,7 @@ const BlogHeader: FC<BlogHeaderProps> = async ({ objectId }) => {
       <h1 className="text-4xl font-bold">{blog.title}</h1>
 
       <p className="font-extralight">
-        {format(new Date(blog.created), "dd MMM yyyy")}
+        {format(new Date(blog.createdAt), "dd MMM yyyy")}
       </p>
 
       <div className="relative w-full h-[360px]">
