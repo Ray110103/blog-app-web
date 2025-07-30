@@ -55,7 +55,7 @@ const ForgotPassword = () => {
             </CardContent>
             <CardFooter className="flex-col gap-2">
               <Button type="submit" className="w-full" disabled={isPending}>
-                {isPending ? <Loader className="animate-spin" /> : "Login"}
+                {isPending ? <Loader className="animate-spin" /> : "Submit"}
               </Button>
             </CardFooter>
           </Form>
